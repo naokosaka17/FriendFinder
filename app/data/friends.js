@@ -1,0 +1,116 @@
+var princess = [
+{
+  "name":"Ariel",
+  "photo":"https://secure.sfanytime.se/movieimages/MEDIA/671f5454-977f-441e-9627-a22700a40ba5_MEDIA.jpg",
+  "scores":[
+     5,
+     4,
+     4,
+     3,
+     2,
+     1,
+     1,
+     2,
+     1,
+     1
+   ]
+},
+{
+  "name":"Cinderella",
+  "photo":"http://images6.fanpop.com/image/photos/33700000/Cinderella-disney-princess-33795331-400-400.jpg",
+  "scores":[
+     1,
+     3,
+     2,
+     1,
+     5,
+     1,
+     3,
+     1,
+     2,
+     4
+   ]
+},
+{
+  "name":"Aurora",
+  "photo":"http://vignette4.wikia.nocookie.net/disney/images/3/3c/Princess-Aurora-and-Prince-Philip-disney-couples-6486109-331-500.jpg/revision/latest/scale-to-width-down/317?cb=20100603005153",
+  "scores":[
+     3,
+     5,
+     3,
+     5,
+     1,
+     5,
+     5,
+     3,
+     3,
+     2
+   ]
+},
+{
+  "name":"Jasmine",
+  "photo":"http://www.photoscartoon.com/wp-content/uploads/2014/11/princess_jasmine-300x300.jpg",
+  "scores":[
+     1,
+     2,
+     1,
+     4,
+     2,
+     4,
+     4,
+     3,
+     4,
+     3
+   ]
+},
+{
+  "name":"Belle",
+  "photo":"https://i.ytimg.com/vi/phuPSJNmmtw/hqdefault.jpg",
+  "scores":[
+     3,
+     2,
+     5,
+     4,
+     4,
+     2,
+     2,
+     4,
+     5,
+     5
+   ]
+},
+{
+  "name":"SnowWhite",
+  "photo":"https://i.ytimg.com/vi/1_1xguE-SdA/hqdefault.jpg",
+  "scores":[
+     2,
+     1,
+     5,
+     5,
+     5,
+     2,
+     4,
+     5,
+     4,
+     4
+   ]
+},
+{
+  "name":"Rapunzel",
+  "photo":"http://i1053.photobucket.com/albums/s462/femalefortitude/Disney/1c4a2d07.png",
+  "scores":[
+     5,
+     3,
+     4,
+     1,
+     3,
+     3,
+     2,
+     1,
+     2,
+     2
+   ]
+}
+]
+
+module.exports = princess;

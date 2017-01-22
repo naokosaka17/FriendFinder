@@ -1,0 +1,12 @@
+.container{
+	background: url(http://img07.deviantart.net/2a17/i/2012/264/f/a/princess_wallpaper_by_mllebarbie03-d5ff1os.png);
+}
+
+h2,h3,h4,p,.btn,.chosen-select{
+	font-family: 'Abril Fatface', cursive;
+}
+
+.form-control,.btn{
+	width: 48%;
+}
+
