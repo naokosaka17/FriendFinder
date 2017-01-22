@@ -5,7 +5,7 @@ var path = require('path');
 
 //set up
 var app = express();
-var PORT = 8080;
+app.set('port', (process.env.PORT || 5000));
 
 app.use(express.static('./app/public'))
 app.use(bodyParser.json());
@@ -16,6 +16,6 @@ app.use(bodyParser.json({ type: "application/vnd.api+json" }));
 require('./app/routing/htmlRoutes.js')(app);
 require('./app/routing/apiRoutes.js')(app);
 
-app.listen(PORT,function(){
-	console.log("App is listening!");
+app.listen(app.get('port'), function() {
+  console.log('Node app is running on port', app.get('port'));
 });
